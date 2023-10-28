@@ -1,15 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "engines": {
-  "node": ">=19 <20"
-  },
   "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "build": "npm install"
+    "start": "nodemon app.js",
   },
   "author": "",
   "license": "ISC",
